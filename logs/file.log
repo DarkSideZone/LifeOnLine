@@ -1,0 +1,474 @@
+INFO 2025-01-12 18:49:10,476 autoreload 31744 127364563861632 Watching for file changes with StatReloader
+INFO 2025-01-12 18:49:34,591 autoreload 31744 127364563861632 /home/darkside/Desktop/lifeon/LifeOnLine/settings.py changed, reloading.
+INFO 2025-01-12 18:49:35,326 autoreload 31816 128785334268032 Watching for file changes with StatReloader
+INFO 2025-01-12 18:49:39,790 autoreload 31836 137514685776000 Watching for file changes with StatReloader
+INFO 2025-01-12 18:49:58,801 autoreload 31836 137514685776000 /home/darkside/Desktop/lifeon/LifeOnLine/settings.py changed, reloading.
+INFO 2025-01-12 18:49:59,663 autoreload 31886 131885980860544 Watching for file changes with StatReloader
+INFO 2025-01-12 18:50:01,101 autoreload 31886 131885980860544 /home/darkside/Desktop/lifeon/LifeOnLine/settings.py changed, reloading.
+INFO 2025-01-12 18:50:01,860 autoreload 31913 131232381862016 Watching for file changes with StatReloader
+INFO 2025-01-12 18:50:05,638 autoreload 31913 131232381862016 /home/darkside/Desktop/lifeon/LifeOnLine/settings.py changed, reloading.
+INFO 2025-01-12 18:50:06,478 autoreload 31938 128155149037696 Watching for file changes with StatReloader
+INFO 2025-01-12 18:50:14,238 autoreload 31938 128155149037696 /home/darkside/Desktop/lifeon/LifeOnLine/settings.py changed, reloading.
+INFO 2025-01-12 18:50:15,041 autoreload 31976 137682482937984 Watching for file changes with StatReloader
+INFO 2025-01-12 18:50:17,641 autoreload 31976 137682482937984 /home/darkside/Desktop/lifeon/LifeOnLine/settings.py changed, reloading.
+INFO 2025-01-12 18:50:18,563 autoreload 32003 124211339509888 Watching for file changes with StatReloader
+INFO 2025-01-12 18:50:28,368 autoreload 32003 124211339509888 /home/darkside/Desktop/lifeon/LifeOnLine/settings.py changed, reloading.
+INFO 2025-01-12 18:50:29,083 autoreload 32051 123432829419648 Watching for file changes with StatReloader
+INFO 2025-01-12 18:50:30,651 autoreload 32051 123432829419648 /home/darkside/Desktop/lifeon/LifeOnLine/settings.py changed, reloading.
+INFO 2025-01-12 18:50:31,532 autoreload 32099 138859142516864 Watching for file changes with StatReloader
+INFO 2025-01-12 18:51:48,359 autoreload 32243 128706176249984 Watching for file changes with StatReloader
+INFO 2025-01-12 18:54:14,270 autoreload 32402 123364796895360 Watching for file changes with StatReloader
+INFO 2025-01-12 18:55:34,350 autoreload 32536 136732182667392 Watching for file changes with StatReloader
+ERROR 2025-01-12 18:55:52,773 exception 32536 136732083226304 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 18:55:52,890 log 32536 136732083226304 Bad Request: /
+WARNING 2025-01-12 18:55:52,891 basehttp 32536 136732083226304 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 18:55:53,104 exception 32536 136732083226304 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 18:55:53,156 log 32536 136732083226304 Bad Request: /favicon.ico
+INFO 2025-01-12 18:56:55,482 autoreload 32841 133263352615040 Watching for file changes with StatReloader
+ERROR 2025-01-12 18:57:00,329 exception 32841 133263253309120 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 18:57:00,404 log 32841 133263253309120 Bad Request: /
+WARNING 2025-01-12 18:57:00,406 basehttp 32841 133263253309120 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 18:57:08,125 exception 32841 133263253309120 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 18:57:08,244 log 32841 133263253309120 Bad Request: /
+WARNING 2025-01-12 18:57:08,247 basehttp 32841 133263253309120 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 18:57:10,596 exception 32841 133263253309120 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 18:57:10,707 log 32841 133263253309120 Bad Request: /
+WARNING 2025-01-12 18:57:10,708 basehttp 32841 133263253309120 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 18:57:13,040 exception 32841 133263253309120 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 18:57:13,160 log 32841 133263253309120 Bad Request: /
+WARNING 2025-01-12 18:57:13,161 basehttp 32841 133263253309120 "GET / HTTP/1.1" 400 77214
+INFO 2025-01-12 18:58:17,003 autoreload 33162 132852524212352 Watching for file changes with StatReloader
+ERROR 2025-01-12 18:58:23,094 exception 33162 132852425426624 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 18:58:23,146 log 33162 132852425426624 Bad Request: /
+WARNING 2025-01-12 18:58:23,147 basehttp 33162 132852425426624 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 18:58:23,216 exception 33162 132852425426624 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 18:58:23,277 log 33162 132852425426624 Bad Request: /
+WARNING 2025-01-12 18:58:23,277 basehttp 33162 132852425426624 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 18:58:26,567 exception 33162 132852425426624 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 18:58:26,714 log 33162 132852425426624 Bad Request: /
+WARNING 2025-01-12 18:58:26,716 basehttp 33162 132852425426624 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 18:58:28,434 exception 33162 132852425426624 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 18:58:28,558 log 33162 132852425426624 Bad Request: /
+WARNING 2025-01-12 18:58:28,559 basehttp 33162 132852425426624 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 18:58:31,003 exception 33162 132852425426624 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 18:58:31,118 log 33162 132852425426624 Bad Request: /
+WARNING 2025-01-12 18:58:31,120 basehttp 33162 132852425426624 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 18:59:12,517 exception 33162 132852425426624 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 18:59:12,648 log 33162 132852425426624 Bad Request: /
+WARNING 2025-01-12 18:59:12,650 basehttp 33162 132852425426624 "GET / HTTP/1.1" 400 77214
+INFO 2025-01-12 18:59:35,690 autoreload 33623 129289691754624 Watching for file changes with StatReloader
+ERROR 2025-01-12 18:59:40,515 exception 33623 129289519367872 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 18:59:40,650 log 33623 129289519367872 Bad Request: /
+WARNING 2025-01-12 18:59:40,653 basehttp 33623 129289519367872 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 18:59:42,411 exception 33623 129289519367872 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 18:59:42,480 log 33623 129289519367872 Bad Request: /
+WARNING 2025-01-12 18:59:42,481 basehttp 33623 129289519367872 "GET / HTTP/1.1" 400 77214
+INFO 2025-01-12 19:01:02,345 autoreload 34003 133264163373184 Watching for file changes with StatReloader
+ERROR 2025-01-12 19:01:08,190 exception 34003 133264062809792 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 19:01:08,255 log 34003 133264062809792 Bad Request: /
+WARNING 2025-01-12 19:01:08,256 basehttp 34003 133264062809792 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 19:01:12,001 exception 34003 133264062809792 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 19:01:12,129 log 34003 133264062809792 Bad Request: /
+WARNING 2025-01-12 19:01:12,131 basehttp 34003 133264062809792 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 19:01:13,467 exception 34003 133264062809792 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 19:01:13,591 log 34003 133264062809792 Bad Request: /
+WARNING 2025-01-12 19:01:13,593 basehttp 34003 133264062809792 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 19:01:15,163 exception 34003 133264062809792 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 19:01:15,309 log 34003 133264062809792 Bad Request: /
+WARNING 2025-01-12 19:01:15,311 basehttp 34003 133264062809792 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 19:01:23,145 exception 34003 133264062809792 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 19:01:23,257 log 34003 133264062809792 Bad Request: /
+WARNING 2025-01-12 19:01:23,259 basehttp 34003 133264062809792 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 19:01:24,803 exception 34003 133264062809792 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 19:01:24,919 log 34003 133264062809792 Bad Request: /
+WARNING 2025-01-12 19:01:24,921 basehttp 34003 133264062809792 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 19:01:27,090 exception 34003 133264062809792 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 19:01:27,224 log 34003 133264062809792 Bad Request: /
+WARNING 2025-01-12 19:01:27,226 basehttp 34003 133264062809792 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 19:01:29,038 exception 34003 133264062809792 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 19:01:29,098 log 34003 133264062809792 Bad Request: /
+WARNING 2025-01-12 19:01:29,099 basehttp 34003 133264062809792 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 19:01:30,793 exception 34003 133264062809792 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 19:01:30,905 log 34003 133264062809792 Bad Request: /
+WARNING 2025-01-12 19:01:30,907 basehttp 34003 133264062809792 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 19:01:32,910 exception 34003 133264062809792 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 19:01:33,025 log 34003 133264062809792 Bad Request: /
+WARNING 2025-01-12 19:01:33,026 basehttp 34003 133264062809792 "GET / HTTP/1.1" 400 77214
+ERROR 2025-01-12 19:01:35,157 exception 34003 133264062809792 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 19:01:35,293 log 34003 133264062809792 Bad Request: /
+WARNING 2025-01-12 19:01:35,295 basehttp 34003 133264062809792 "GET / HTTP/1.1" 400 77214
+INFO 2025-01-12 19:19:48,461 autoreload 35668 129869684093056 Watching for file changes with StatReloader
+ERROR 2025-01-12 19:19:54,355 exception 35668 129869579028160 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/darkside/Desktop/lifeon/venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2025-01-12 19:19:54,485 log 35668 129869579028160 Bad Request: /
+WARNING 2025-01-12 19:19:54,487 basehttp 35668 129869579028160 "GET / HTTP/1.1" 400 77215
+INFO 2025-01-12 19:33:49,581 autoreload 40396 130652862279808 Watching for file changes with StatReloader
+WARNING 2025-01-12 19:34:01,681 log 40396 130652756248256 Not Found: /
+WARNING 2025-01-12 19:34:01,682 basehttp 40396 130652756248256 "GET / HTTP/1.1" 404 2677
+WARNING 2025-01-12 19:34:01,904 log 40396 130652756248256 Not Found: /favicon.ico
+INFO 2025-01-12 19:35:08,476 autoreload 40396 130652862279808 /home/darkside/Desktop/lifeon/LifeOnLine/urls.py changed, reloading.
+INFO 2025-01-12 19:35:10,307 autoreload 40699 126081987408000 Watching for file changes with StatReloader
+INFO 2025-01-12 19:36:27,884 autoreload 40843 135546968305792 Watching for file changes with StatReloader
+WARNING 2025-01-12 19:36:33,835 log 40843 135546863093440 Not Found: /
+WARNING 2025-01-12 19:36:33,837 basehttp 40843 135546863093440 "GET / HTTP/1.1" 404 2677
+INFO 2025-01-12 19:36:43,316 basehttp 40843 135546863093440 "GET /swagger HTTP/1.1" 301 0
+INFO 2025-01-12 19:36:43,421 basehttp 40843 135546863093440 "GET /swagger/ HTTP/1.1" 200 2223
+INFO 2025-01-12 19:36:43,673 basehttp 40843 135546863093440 "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+INFO 2025-01-12 19:36:43,680 basehttp 40843 135546749847232 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+INFO 2025-01-12 19:36:43,682 basehttp 40843 135546863093440 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+INFO 2025-01-12 19:36:43,695 basehttp 40843 135546739361472 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2025-01-12 19:36:43,708 basehttp 40843 135546852607680 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+INFO 2025-01-12 19:36:43,714 basehttp 40843 135546831636160 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+INFO 2025-01-12 19:36:43,730 basehttp 40843 135546842121920 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+INFO 2025-01-12 19:36:44,384 basehttp 40843 135546842121920 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+INFO 2025-01-12 19:36:44,802 basehttp 40843 135546842121920 "GET /swagger/?format=openapi HTTP/1.1" 200 551
+INFO 2025-01-12 19:50:43,891 autoreload 42205 139616937500800 Watching for file changes with StatReloader
+WARNING 2025-01-12 19:50:54,372 log 42205 139616761939648 Not Found: /
+WARNING 2025-01-12 19:50:54,374 basehttp 42205 139616761939648 "GET / HTTP/1.1" 404 2935
+INFO 2025-01-12 19:51:05,772 basehttp 42205 139616761939648 "GET /swagger/ HTTP/1.1" 200 2223
+INFO 2025-01-12 19:51:05,976 basehttp 42205 139616761939648 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2025-01-12 19:51:05,985 basehttp 42205 139616761939648 "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2025-01-12 19:51:05,991 basehttp 42205 139616751453888 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2025-01-12 19:51:06,005 basehttp 42205 139616730482368 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2025-01-12 19:51:06,012 basehttp 42205 139616740968128 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2025-01-12 19:51:06,013 basehttp 42205 139616719996608 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2025-01-12 19:51:06,013 basehttp 42205 139616634013376 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2025-01-12 19:51:07,183 basehttp 42205 139616730482368 "GET /swagger/?format=openapi HTTP/1.1" 200 1125
+INFO 2025-01-12 19:52:13,616 basehttp 42205 139616761939648 "POST /auth/login/ HTTP/1.1" 200 901
