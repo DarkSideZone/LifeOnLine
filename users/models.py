@@ -1,5 +1,7 @@
+import random
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
 from django.db import models
+from django.conf import settings
 
 CITIES =  (('bishkek', 'Bishkek'),
             ('osh', 'Osh'),
@@ -48,12 +50,10 @@ class User(AbstractBaseUser, PermissionsMixin):
     username = models.CharField(max_length=50, unique=True)
     avatar = models.ImageField(upload_to='users/', null=True, blank=True)
     email = models.EmailField('Электронная почта:')
-    phone_number = models.CharField(max_length=15)
+    phone_number = models.CharField(max_length=15, null=True, blank=True)
     date_of_birth = models.DateField(null=True, blank=True, verbose_name="Дата рождения")
     first_name = models.CharField(
         max_length=120,
-        null=True,
-        blank=True,
         verbose_name="Имя"
     )
     last_name = models.CharField(
@@ -73,7 +73,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     gender = models.CharField(max_length=10, choices=GENDERS, null=True, blank=True)
     bio = models.TextField(null=True, blank=True)
 
-    is_active = models.BooleanField(default=True)
+    is_active = models.BooleanField(default=False)
     is_staff = models.BooleanField(default=False)
 
     objects = CustomUserManager()
@@ -86,3 +86,14 @@ class User(AbstractBaseUser, PermissionsMixin):
     class Meta:
         verbose_name = 'Пользователь'
         verbose_name_plural = 'Пользователи'
+
+
+class EmailConfirmationCode(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    confirmation_code = models.CharField(max_length=6, editable=False)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def save(self, *args, **kwargs):
+        if not self.confirmation_code:
+            self.confirmation_code = f"{random.randint(100000, 999999)}"
+        super().save(*args, **kwargs)
